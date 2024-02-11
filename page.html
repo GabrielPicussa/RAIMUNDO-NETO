@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="s"></script>
+</head>
+<body>
+    <div class="wrap-menu">
+        <ul>
+           <li><a href="#perfil01">Primeiro perfil</a></li>
+           <li><a href="#perfil02">Segundo perfil</a></li>
+           <li><a href="#tec">Tecnologias</a></li>
+           <li><a href="#contact">Contato</a></li>
+        </ul>
+    </div>
+    <div class="perfil01" id="perfil01">
+
+
+        <div class="leftDiv">
+            <div class="rel">
+                <img
+                class="img01"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv-M3GQsv0so7RjjsJ0f7yPZwUwQsPSe3xkwFWt8IVSna0jb_5pHOehsrnzqFqxyFikWY&usqp=CAU"
+                    alt="raimundo neto">
+            </div>
+        </div>
+
+        <div class="rightDiv">
+            <h1> Raimundo Neto 4.0</h1>
+            <p class="desc"> Raimundo Neto é um gato que desafia as convenções com uma determinação feroz e um espírito indomável. Com olhos faiscantes de determinação e um rugido que ecoa como trovão, ele é uma força a ser reconhecida em qualquer campo de batalha. Dotado de um tanque de guerra próprio, Raimundo Neto personifica a bravura e a resolução em sua forma mais pura.
+
+                Desde tenra idade, Raimundo Neto demonstrou uma iniciativa singular, sempre buscando novos desafios e fronteiras para conquistar. Seu tanque de guerra é mais do que uma mera máquina de destruição; é uma extensão de sua vontade inabalável e seu desejo ardente de prevalecer contra todas as probabilidades.
+
+                Não importa o quão difícil seja a missão, Raimundo Neto nunca recua. Sua perseverança é lendária, enfrentando os desafios mais terríveis com uma coragem inabalável. Ele avança implacavelmente, mesmo quando todos os outros recuam, seu espírito nunca quebra, e sua determinação nunca vacila.
+
+                No entanto, por trás de sua bravura e determinação, há um espírito maligno que o impulsiona. Raimundo Neto é um mestre da astúcia e da estratégia, capaz de enganar e superar seus adversários com uma inteligência afiada e uma crueldade calculada. Ele não se contenta apenas em vencer; ele busca dominar e subjugar aqueles que se opõem a ele.
+
+                Em resumo, Raimundo Neto é mais do que apenas um gato com um tanque de guerra; ele é uma força da natureza, uma combinação explosiva de bravura, iniciativa, perseverança e um espírito maligno que o torna uma lenda viva nos campos de batalha da vida.</p>
+        </div>
+
+
+    </div>
+    <div class="perfil02" id="perfil02">
+        <p>perfil 02</p>
+    </div>
+    <div class="tecDiv" id="tec">
+        <p>tecnologias</p>
+    </div>
+    <div class="contactDiv" id="contact">
+        <div style="text-align: center;" class="leftContact">
+            <h2>Contato</h2>
+            <p>Aqui você pode mandar uma mensagem.</p>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+            <label for="mensagm">Mensagem</label>
+            <textarea type="text" id="mensagem"></textarea>
+            <button onclick="conferirMensagemWhatsApp()">Conferir dados</button>
+        </div>
+        <div class="rightContact">
+            <div>
+                <p>Nome: <span id="confNome"></span></p>
+                <p>Mensagem: <span id="confMsg"></span></p>
+            </div>
+            <button onclick="enviar()">ZAP</button>
+        </div>
+    </div>
+</body>
